@@ -1,0 +1,210 @@
+@font-face {
+    font-family: "new_one";
+    src: url(font/ConcertOne-Regular.ttf);
+}
+
+body{ 
+    display: flex;
+    background-color: white;
+}
+
+.menu{ 
+    height: 600px;
+    width: 20%;
+    margin: 1%;
+    background-color: rgb(224, 224, 224);
+    border-radius: 15px;
+    font-family: 'new_one';
+    color: rgb(105, 105, 105);
+}
+.menu div{ 
+    margin-left: 4%;
+    margin-bottom: 4%;
+   
+}
+.menu img{ 
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+.menu button{ 
+    background: none;
+    border: none;
+    font-family:'new_one';
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
+
+.affichage{ 
+    
+    margin: 1%;
+    width: 80%;
+    border-radius: 15px;
+    background-color:rgb(224, 224, 224) ;
+    font-family:'new_one' ;
+}
+
+
+.start{ 
+    color: rgb(105, 105, 105);
+    font-family:'new_one' ;
+    background-color:rgb(66, 66, 66) ;
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.start img{ 
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    
+}
+
+.start h1{ 
+    margin: 0%;
+}
+
+.btnOFToday:hover{
+    background-color: rgb(105, 105, 105);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 2px black;
+}
+.btnOFToday:active{
+    background-color: rgb(105, 105, 105);
+    border-radius: 15px;   
+    box-shadow:inset 0px 0px 20px 2px black; 
+}
+.btnOfProjects:hover{ 
+    background-color: rgb(105, 105, 105);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 2px black;
+}
+.btnOfProjects:active{ 
+    background-color: rgb(105, 105, 105);
+    border-radius: 15px;
+    box-shadow:inset 0px 0px 20px 2px black;
+}
+
+.divMod{ 
+    font-family: 'new_one';
+    display: flex;
+    gap: 1%;
+    flex-wrap: wrap;
+   
+}
+
+ .btn{ 
+    font-family: 'new_one';
+    font-size: xx-large;
+   border-radius: 15px;
+    background-color: rgb(66, 66, 66);
+    color:rgb(105, 105, 105) ;
+    border-style: none;
+    text-align: center;
+    width: 20%;
+    height: 200px;
+    
+    
+ }
+
+ .titleMyTodo{ 
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .divMyTOdo{ 
+    width: 20%;
+    height: 200px;
+    margin-bottom: 1%;
+    border-radius: 15px;
+    background-color:rgb(153, 153, 153) ;
+    position: relative;
+    font-size: clamp(20%,80vw,100%);
+}
+.btnEdit , .btnEdit1{ 
+    width: 16px;
+    height: 16px;
+    padding: 0%;
+    background: none;
+    border-style: none;
+    position:absolute;
+    left: 80%;
+    top: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnDelete , .btnDelete1{ 
+    width: 16px;
+    height: 16px;
+    padding: 0%;
+    background: none;
+    border-style: none;
+    position:absolute;
+    left: 60%;
+    top: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divMyTOdo img { 
+    width: 20px;
+    height: 20px;
+}
+
+.divMyTOdo button:hover{ 
+    box-shadow: 0px 0px 20px 5px black;
+    border-color: black;
+    
+}
+
+.removeprojects:hover{ 
+    background-color: rgb(105, 105, 105);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 2px black;
+}
+.removeprojects:active{ 
+    background-color: rgb(105, 105, 105);
+    border-radius: 15px;
+    box-shadow:inset 0px 0px 20px 2px black;  
+}
+
+.btnOfProject{
+    width: 100%;
+}
+
+
+.btn1{ 
+    font-family: 'new_one';
+    font-size: xx-large;
+   border-radius: 15px;
+    background-color: rgb(66, 66, 66);
+    color:rgb(105, 105, 105) ;
+    border-style: none;
+    text-align: center;
+    width: 20%;
+    height: 200px;
+    
+    
+}
+
+.removeprojects{ 
+    border-radius: 15px;
+    background-color: rgb(66, 66, 66);
+    width: 80%;
+}
+
+
+
+
+.divdiv{ 
+    display: flex;
+    align-items: center;  
+}
+
+
+
